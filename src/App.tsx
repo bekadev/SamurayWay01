@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import Header from "./components/Header";
+import List from "./components/List";
 
 function App() {
     return (
@@ -9,25 +11,6 @@ function App() {
             <List/>
         </div>
     );
-}
-
-const Header = () => {
-    return <div>
-        <a href={"#"}>Home </a>
-        <a href={"#"}>Cafe </a>
-        <a href={"#"}>Restaurant </a>
-    </div>
-}
-
-const List = () => {
-    return <div>
-        <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-        </ul>
-    </div>
 }
 
 export default App;
