@@ -3,16 +3,6 @@
   margin: 0 auto;
 }
 
-.header {
-  background-color: #61dafb;
-  margin-top: 20px;
-}
-
-.header img {
-  width: 70px;
-  height: 70px;
-  margin: 10px 10px;
-}
 
 .elementFlex {
   display: flex;
@@ -20,31 +10,9 @@
   margin-top: 20px;
 }
 
-.aside {
-  background-color: cornflowerblue;
-  width: 300px;
-  height: 700px;
-  padding: 10px 10px;
-}
 
-.aside div {
-  color: #ffffff;
-  font-size: 20px;
-  margin-bottom: 10px;
-}
 
-.aside_settings {
-  margin-top: 50px;
-}
 
-.main_user {
-  margin-top: 20px;
-}
-
-.main_user img {
-  width: 100px;
-  height: 100px;
-}
 
 
 .App-logo {

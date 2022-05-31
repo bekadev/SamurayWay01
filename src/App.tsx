@@ -1,9 +1,9 @@
 import React from 'react';
 import  './App.css';
-import {Header} from "./components/Header";
+import {Header} from "./components/Header/Header";
 import List from "./components/List";
-import {Navbar} from "./components/Navbar";
-import {Main} from "./components/Main";
+import {Navbar} from "./components/Navbar/Navbar";
+import {Main} from "./components/Main/Main";
 
 function App() {
     return (
