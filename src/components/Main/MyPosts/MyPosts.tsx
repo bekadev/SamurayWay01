@@ -2,9 +2,21 @@ import React from "react";
 import s from './MyPosts.module.css';
 import {Post} from "./Post/Post";
 
+type PostDataType = {
+    id: number,
+    message: string
+}
+
+export type PostDareType = {
+    postData: PostDataType[]
+}
 
 
-export const MyPosts = () => {
+export const MyPosts = (props: PostDareType) => {
+
+    let postElements = props.postData.map(p => <Post message={p.message}/>)
+
+
     return (
         <div>
             <p>
@@ -14,8 +26,7 @@ export const MyPosts = () => {
             <br/>
             <button>Send</button>
             <div className={s.posts}>
-                <Post message='Lorem Ipsum has been the industry standard dummy'/>
-                <Post message='Lorem Ipsum has been the industrys standard dummy'/>
+                {postElements}
             </div>
         </div>
     )

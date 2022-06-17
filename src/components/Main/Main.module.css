@@ -2,15 +2,9 @@
     margin-top: 20px;
 }
 
-.main_user{
-    width: 100px;
-    height: 100px;
-    margin-right: 20px;
-}
 
-.flex {
-    display: flex;
-}
+
+
 
 .input {
     width: 700px;
@@ -20,10 +14,7 @@
     border-radius: 5px;
 }
 
-.info {
-    font-size: 20px;
-    line-height: 2px;
-}
+
 
 .img {
     height: 200px;
